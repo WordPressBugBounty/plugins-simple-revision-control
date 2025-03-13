@@ -4,23 +4,27 @@ Donate link: https://ko-fi.com/iworks?utm_source=simple-revision-control&utm_med
 Tags: revision, revisions, post, page, custom post type
 Requires at least: 6.0
 Tested up to: 6.7
-Stable tag: 2.2.1
+Stable tag: 2.2.2
 Requires PHP: 8.0
 License: GPLv3 or later
 
 Manage post types revisions.
 
-== Description ==
-
-Simple Revision Control is a plugin for WordPress which gives the user simple control over the Revision functionality.
-
 You can also delete all unwanted revisions at all.
 
 If you are able to edit `wp-config.php` file or you want to have only one number of revisions for all post types, then please consider do not install this plugin, instead just edit `wp-config.php` file.
 
+== Description ==
+
+Simple Revision Control is a plugin for WordPress which gives the user simple control over the Revision functionality.
+
 = Asset image =
 
 [My Filing Cabinet](http://www.flickr.com/photos/theenmoy/8078124630/) by [Theen Moy](http://www.flickr.com/photos/theenmoy/) Creative Common
+
+= GitHub =
+
+The Simple Revision Control plugin is available also on [GitHub - Orphans](https://github.com/iworks/simple-revision-control).
 
 == Installation ==
 
@@ -46,19 +50,22 @@ You can set up a number of revisions by post type. Setting in `wp-config.php` fi
 
 == Changelog ==
 
+= 2.2.2 (2025-03-13) =
+* Updated the [iWorks Options](https://github.com/iworks/wordpress-options-class) module to version 2.9.8.
+
 = 2.2.1 (2025-02-21) =
 * The build process has been improved.
-* The [iWorks Rate](https://github.com/iworks/iworks-rate) module has been updated to 2.2.3.
-* The [iWorks Options](https://github.com/iworks/wordpress-options-class) module has been updated to 2.9.5.
+* Updated the [iWorks Rate](https://github.com/iworks/iworks-rate) module to version 2.2.3.
+* Updated the [iWorks Options](https://github.com/iworks/wordpress-options-class) module to version 2.9.5.
 
 = 2.2.0 (2024-02-15) =
 * The security of deleting previous versions has been improved, normal entries should not be deleted from now on.
-* The [iWorks Rate](https://github.com/iworks/iworks-rate) module has been updated to 2.1.6.
-* The [iWorks Options](https://github.com/iworks/wordpress-options-class) module has been updated to 2.9.1.
+* Updated the [iWorks Rate](https://github.com/iworks/iworks-rate) module to version 2.1.6.
+* Updated the [iWorks Options](https://github.com/iworks/wordpress-options-class) module to version 2.9.1.
 
 = 2.1.3 (2023-11-20) =
-* The [iWorks Rate](https://github.com/iworks/iworks-rate) module has been updated to 2.1.3.
-* The [iWorks Options](https://github.com/iworks/wordpress-options-class) module has been updated to 2.8.8.
+* Updated the [iWorks Rate](https://github.com/iworks/iworks-rate) module to version 2.1.3.
+* Updated the [iWorks Options](https://github.com/iworks/wordpress-options-class) module to version 2.8.8.
 
 = 2.1.2 (2022-04-07) =
 * Fixed settings link on plugins page. Props for [tanohex](https://wordpress.org/support/users/tanohex/).
@@ -71,16 +78,16 @@ You can set up a number of revisions by post type. Setting in `wp-config.php` fi
 * Added ability to turn on revisions for post types without revisions.
 * Added filter `iworks_plugin_get_options` to allow to change plugin base configuration.
 * Improved UX on configuration screen.
-* Updated iWorks Options to 2.8.1.
-* Updated iWorks Rate to 2.1.0.
+* Updated the [iWorks Options](https://github.com/iworks/wordpress-options-class) module to version 2.8.1.
+* Updated the [iWorks Rate](https://github.com/iworks/iworks-rate) module to version 2.1.0.
 
 = 2.0.0 (2022-02-02) =
 - Refactored whole plugin.
-* Updated iWorks Options to 2.8.0.
-* Updated iWorks Rate to 2.0.6.
+* Updated the [iWorks Options](https://github.com/iworks/wordpress-options-class) module to version 2.8.0.
+* Updated the [iWorks Rate](https://github.com/iworks/iworks-rate) module to version 2.0.6.
 
 = 1.3.4 (2021-06-16) =
-* Updated iWorks Options to 2.6.9.
+* Updated the [iWorks Options](https://github.com/iworks/wordpress-options-class) module to version 2.6.9.
 
 = 1.3.3 (2017-05-19) =
 * Fixed translation incompatibility.

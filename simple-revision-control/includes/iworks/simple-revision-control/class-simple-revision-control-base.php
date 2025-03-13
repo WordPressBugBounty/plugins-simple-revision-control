@@ -41,7 +41,7 @@ abstract class iWorks_Simple_Revision_Control_Base {
 	/**
 	 * Plugin version
 	 */
-	protected $version = '2.2.1';
+	protected $version = '2.2.2';
 
 	/**
 	 * debug

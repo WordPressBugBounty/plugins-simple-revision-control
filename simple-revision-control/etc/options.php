@@ -8,7 +8,7 @@ function simple_revision_control_options() {
 	 */
 	$options['index'] = array(
 		'use_tabs'        => true,
-		'version'         => '2.2.1',
+		'version'         => '2.2.2',
 		'page_title'      => __( 'Revisions configuration', 'simple-revision-control' ),
 		'menu_title'      => __( 'Revisions', 'simple-revision-control' ),
 		'menu'            => 'options',
