@@ -3,18 +3,20 @@ Contributors: iworks
 Donate link: https://ko-fi.com/iworks?utm_source=simple-revision-control&utm_medium=readme-donate
 Tags: revision, revisions, post, page, custom post type
 Requires at least: 6.0
-Tested up to: 6.7
-Stable tag: 2.2.2
+Tested up to: 6.8
+Stable tag: 2.2.3
 Requires PHP: 8.0
 License: GPLv3 or later
+
+Manage post types revisions.
+
+== Description ==
 
 Manage post types revisions.
 
 You can also delete all unwanted revisions at all.
 
 If you are able to edit `wp-config.php` file or you want to have only one number of revisions for all post types, then please consider do not install this plugin, instead just edit `wp-config.php` file.
-
-== Description ==
 
 Simple Revision Control is a plugin for WordPress which gives the user simple control over the Revision functionality.
 
@@ -24,7 +26,7 @@ Simple Revision Control is a plugin for WordPress which gives the user simple co
 
 = GitHub =
 
-The Simple Revision Control plugin is available also on [GitHub - Orphans](https://github.com/iworks/simple-revision-control).
+The Simple Revision Control plugin is available also on [GitHub](https://github.com/iworks/simple-revision-control).
 
 == Installation ==
 
@@ -49,6 +51,11 @@ You can set up a number of revisions by post type. Setting in `wp-config.php` fi
 1. Entries list screen with ability to delete revisions by element.
 
 == Changelog ==
+
+= 2.2.3 (2025-05-08) =
+* Added escaping functions in multiple areas for improved security.
+* Fixed `Short Description` section in `readme.txt` was too long.
+* Updated the [iWorks Options](https://github.com/iworks/wordpress-options-class) module to version 3.0.0.
 
 = 2.2.2 (2025-03-13) =
 * Updated the [iWorks Options](https://github.com/iworks/wordpress-options-class) module to version 2.9.8.
