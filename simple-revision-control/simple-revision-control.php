@@ -11,7 +11,7 @@
  * Plugin Name:       Simple Revision Control
  * Plugin URI:        http://iworks.pl/en/plugins/simple-revision-control/
  * Description:       Simple Revision Control is a plugin which gives the user simple control over the Revision functionality.
- * Version:           2.2.3
+ * Version:           2.2.4
  * Requires at least: 6.0
  * Requires PHP:      8.0
  * Author:            Marcin Pietrzak
@@ -38,7 +38,7 @@ defined( 'ABSPATH' ) || exit; // Exit if accessed directly
 /**
  * static options
  */
-define( 'SIMPLE_REVISION_CONTROL_VERSION', '2.2.3' );
+define( 'SIMPLE_REVISION_CONTROL_VERSION', '2.2.4' );
 define( 'SIMPLE_REVISION_CONTROL_PREFIX', 'simple_revision_control_' );
 
 // require_once dirname(__FILE__).'/includes/common.php';
